@@ -54,12 +54,12 @@ body {
 }
 
 .heading-tertiary {
-  font-size: $font-default;
+  font-size: $default-font;
   font-weight: 700;
   text-transform: uppercase;
 }
 .paragraph {
-  font-size: $font-default;
+  font-size: $default-font;
 
   &:not(:last-child) {
     margin-bottom: 3rem;

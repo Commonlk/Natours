@@ -8,7 +8,7 @@
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
-    font-size: $font-default;
+    font-size: $default-font;
   }
 
   &:hover {
@@ -57,7 +57,7 @@
   &:link,
   &:visited {
     display: inline-block;
-    font-size: $font-default;
+    font-size: $default-font;
     font-weight: 700;
     text-decoration: none;
     color: $color-primary;
