@@ -26,7 +26,11 @@
 
   &__left {
     width: 33.33333%;
-    display: table-cell;
+    display: none;
+
+    @include respond(big-desktop) {
+      display: table-cell;
+    }
   }
 
   &__right {
