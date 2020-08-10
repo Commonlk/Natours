@@ -667,7 +667,8 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
-      height: 85rem;
+      min-height: fit-content;
+      min-height: 100vh;
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); } }
   .header__logo-box {
     position: absolute;
@@ -912,6 +913,9 @@ body {
   @media (max-width: 56.25em) {
     .section-about {
       padding: 20rem 0; } }
+  @media (max-width: 37.5em) {
+    .section-about {
+      margin-top: -15vh; } }
 
 .section-features {
   padding: 20rem 0;
