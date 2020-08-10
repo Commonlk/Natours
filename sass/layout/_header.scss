@@ -12,7 +12,8 @@
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   @include respond(phone) {
-    height: 85rem;
+    min-height: fit-content;
+    min-height: 100vh;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   }
 
