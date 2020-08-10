@@ -76,9 +76,17 @@ body {
   font-size: $default-font;
   font-weight: 700;
   text-transform: uppercase;
+
+  @include respond(tab-port) {
+    text-align: center;
+  }
 }
 .paragraph {
   font-size: $default-font;
+
+  @include respond(tab-port) {
+    text-align: center;
+  }
 
   &:not(:last-child) {
     margin-bottom: 3rem;
