@@ -10,6 +10,7 @@
     left: 0;
     width: 100%;
     transition: all 0.8s ease;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: $default-border-radius;
     overflow: hidden;
